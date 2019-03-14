@@ -2,5 +2,7 @@ bitbucket.org/kardianos/table v0.0.0-20161227083656-122dc7c330c9 h1:knv+XmCRN+DM
 bitbucket.org/kardianos/table v0.0.0-20161227083656-122dc7c330c9/go.mod h1:5IM+9m1uzHjHFtPqifBdbDwh6VD1e0jndSJy0VGfHTE=
 bitbucket.org/kardianos/table v0.0.4 h1:M685GEpnROmkVVK63W11xlJD/UWS6qNilHAv8Tfr5KI=
 bitbucket.org/kardianos/table v0.0.4/go.mod h1:0Qb4oxgp9ktYwD1m2ax3vz7amVy4NwGIjpKYoSwpqLQ=
+github.com/kardianos/pq v0.0.0-20171006230638-eb0c421b785d9bd31f958b894aac03c57ef07795 h1:64WHtfXrgsMf/uQkwrPl5DnD5tEMeKjbliHKTd4+bxw=
+github.com/kardianos/pq v0.0.0-20171006230638-eb0c421b785d9bd31f958b894aac03c57ef07795/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
 github.com/lib/pq v1.0.0 h1:X5PMW56eZitiTeO7tKzZxFCSpbFZJtkMMooicw2us9A=
 github.com/lib/pq v1.0.0/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=

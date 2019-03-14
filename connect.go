@@ -47,6 +47,7 @@ func main() {
 		begin;
 			select * from information_schema.tables limit 10;
 			select * from information_schema.columns limit 10;
+			select * from information_schema.schemata limit 10;
 		commit;
 	`)
 	if err != nil {
