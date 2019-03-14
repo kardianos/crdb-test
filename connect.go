@@ -32,12 +32,13 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second*3)
 	defer cancel()
 
-	for i := 0; i < 3; i++ {
+	// Wait for database to start.
+	for i := 0; i < 9; i++ {
 		err = db.PingContext(ctx)
 		if err == nil {
 			break
 		}
-		time.Sleep(time.Second * 2)
+		time.Sleep(time.Millisecond * 300)
 	}
 	if err != nil {
 		log.Fatal("failed to ping db", err)
